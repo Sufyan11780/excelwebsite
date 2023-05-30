@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>ABE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+    .container-fluid {
+        background-color: #442A87;
+    }
+
+    .container {
+        background-color: white; 
+        }
+        .price{
+          background-color: #442A87;
+          
+        }
+        table li{
+    list-style-type: none;
+       }
+
+       .fee{
+        background-color: red
+       }
+
+       table,tr,td,th{
+        border: 1px solid white;
+        border-collapse: collapse;
+       }
+
+       .why{
+        background-color: white;
+        
+       }
+       .fnt{
+      background-color: lightskyblue;
+      margin-left: 25%;
+      height: 50px;
+      padding: 5px;
+      border-radius: 100%;
+      width: 50px;
+    }
+
+    .fnt1{
+      background-color: lightskyblue;
+      margin-left: 2%;
+      height: 50px;
+      padding: 5px;
+      border-radius: 100%;
+      width: 50px;
+    }
+
+    .fnt2{
+      background-color: lightskyblue;
+      margin-left: 2%;
+      height: 50px;
+      padding: 5px;
+      border-radius: 100%;
+      width: 50px;
+    }
+
+    .fnt3{
+      background-color: lightskyblue;
+      margin-left: 2%;
+      height: 50px;
+      padding: 5px;
+      border-radius: 100%;
+      width: 50px;
+    }
+    .fnt:hover{
+      background-color: red;
+    }
+
+    .fnt2:hover{
+      background-color: red;
+    }
+
+    .fnt3:hover{
+      background-color: red;
+    }
+
+    .fnt1:hover{
+      background-color: red;
+    }
+</style>
+
+<body>
+  <div class="header" style="width: 100%;">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: white;">excelglobalcollege@gmail.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#" style="color: white;">tel:+254(0)714800900</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdy02dg3dUy2n_Sxbi2VfFc06Ypbb6zGGC1I9g0HwG0JQgluA/viewform"><button class="btn btn-lg btn-primary">Application form</button></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://ibank.gtbank.co.ke/newapps/gtcollectportal/index.aspx"><button class="btn btn-lg btn-primary">Online fees payment</button></a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container">
+  
+ 
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+          <a class="nav-link active" href="#"><img src="logo.jpg" alt="" style="height: 100%; width: 100%;"></a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link  " aria-current="page" href="home.html">Home</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">About us</a>
+      </li>
+
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            School of business    
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="abe.html">ABE</a></li>
+            <li><a class="dropdown-item" href="businessstart.html">Business startup</a></li>
+            <li><a class="dropdown-item" href="ciscom.html">CISCOM</a></li>
+            <li><a class="dropdown-item" href="english.html">Business English</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            School of Accounting    
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="acca.html">ACCA</a></li>
+            <li><a class="dropdown-item" href="packages.html">Accounting packages</a></li>
+            
+          </ul>
+        </li>
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          School of ICT
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="office.html">Microsoft Office Specialist</a></li>
+          <li><a class="dropdown-item" href="adobe.html">Adobe certified courses</a></li>
+          <li><a class="dropdown-item" href="graphic.html">Graphic design</a></li>
+          <li><a class="dropdown-item" href="webdesign.html">Web design</a></li>
+          <li><a class="dropdown-item" href="programming.html">Programmimg</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="placements.html">Job placements</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="contactus.html">Contact us</a>
+      </li>
+
+
+    </ul>
+    <ul class="navbar-nav">
+
+     
+  </div>
+</div>
+</nav>
+          <img src="abe.JPG" alt="" width="100%">
+
+          <table>
+            <tr>
+                <td>
+                <ul>
+                <h2>ABE level 4 (part 1)</h2>
+                    <li>Dynamic Business Environments</li>
+                    <li>Enterprising Organisations</li>
+                    <li>Employability and Self-development</li>
+                    <li>Finance for Managers</li>
+                </ul>
+            </td>
+
+            <td>
+                <ul>
+                    <h2>ABE level 4 (part 2)</h2>
+                        <li>Introduction to entrepreneurship</li>
+                        <li>Introduction to quantitative methods</li>
+                        <li>Project Management</li>
+                        <li>Dynamic & collaborative teams</li>
+                    </ul>
+            </td>
+
+            <td>
+                <ul>
+                    <h2>ABE level 5 (part 1)</h2>
+                        <li>Managing agile organisations & people</li>
+                        <li>Effective financial management</li>
+                        <li>Managing stakeholder relationships</li>
+                        
+                    </ul>                
+            </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <ul>
+                        <h2>ABE level 5 (part 2)</h2>
+                            <li>Analytical decision making</li>
+                            <li>International business economics & markets</li>
+                            <li>Innovation & business performance</li>
+                            
+                        </ul>             
+                </td>
+
+                <td>
+                    <ul>
+                        <h2>ABE level 6 (part 1)</h2>
+                            <li>Leading strategic change</li>
+                            <li>Business ethics & sustainability</li>
+                            <li>Strategic stakeholder relationships</li>
+                            
+                        </ul>             
+                </td>
+
+                <td>
+                  <ul>
+                    <h2>ABE level 6 (part 2)</h2>
+                        <li>Business strategy & decision making</li>
+                        <li>Developing International markets</li>
+                        <li>Advanced project Management</li>
+                        
+                    </ul>        
+                </td>
+
+                
+            </tr>
+          </table>
+
+          <div class="price" style="color: white;">
+            <br>
+          
+            <h3>Our Price</h3>
+            <div class="row">
+              <div class="col">
+           <table>
+            <tr style="background-color: aqua;">
+              <th>Course</th>
+              <th>Duration</th>
+              <th>Fees</th>
+              <th>Eligibility</th>
+            </tr>
+
+            <td>
+              <ul>
+                  <li>ABE LEVEL 4 (PART 1)</li>
+                  
+              </ul>
+          </td>
+          
+          <td>
+              <ul>
+                  <li>6 Months</li>
+              </ul>
+          </td>
+          
+          <td>
+              <ul>
+                  <li>36,000/=</li>
+              </ul>
+          </td>
+          
+          <td>
+              <ul>
+                  <li>Competency in English</li>
+              </ul>
+          </td>
+
+          <tr>
+            <td>
+                <ul>
+                    <li>ABE LEVEL 4 (PART 2)</li>
+                    
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>6 Months</li>
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>36,000/=</li>
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>Competency in English</li>
+                </ul>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <ul>
+                    <li>ABE LEVEL 5 (PART 1)</li>
+                    
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>6 Months</li>
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>39,000/=</li>
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>ABE level 4 or A levels</li>
+                </ul>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <ul>
+                    <li>ABE LEVEL 5 (PART 2)</li>
+                    
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>6 Months</li>
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>39,000/=</li>
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>ABE level 4 or A levels</li>
+                </ul>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <ul>
+                    <li>ABE LEVEL 6 (PART 1)</li>
+                    
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>6 Months</li>
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>42,000/=</li>
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>ABE level 5 or Degree from recognized university</li>
+                </ul>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <ul>
+                    <li>ABE LEVEL 6 (PART 2)</li>
+                    
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>6 Months</li>
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>42,000/=</li>
+                </ul>
+            </td>
+            
+            <td>
+                <ul>
+                    <li>ABE level 5 or Degree from recognized university</li>
+                </ul>
+            </td>
+        
+           </table>
+              </div>
+
+              <div class="col">
+                <div class="adv">
+                  <div class="fee" style="width: 400px;margin-left: 30%;display: inline-block;">
+                    <h4>Admission fees Ksh.</h4>
+                    <h4>3,000</h4>
+                    <h4>Semester Fees Ksh.</h4>
+                    <h4>2,000</h4>
+                  </div>
+              </div>
+              </div>
+           
+              <div class="row">
+                <div class="col">
+            <tr>
+           <td>
+           <ul>
+            <li>Above Fees excludes registration fees and exam fees which is payable directly to the examining body</li>
+            <li>Free study text, free revision kit and free block revision</li>
+            <li>Block revision is conducted in May and November</li>
+            <li>Easy installment plans</li>
+            <li>Paper based exams are in June and December</li>
+            <li>Equivalent to first and second year of degree</li>
+            <li>Assistance in job placements for our students</li>
+           </ul>
+          </td>
+        </div>
+
+        <div class="col">
+          <td>
+            <ul style="margin-left: 45%;">
+              <h4>Career Opportunities</h4>
+              <li>Sales Manager</li>
+              <li>Business Consultant</li>
+              <li>Financial Analyst</li>
+              <li>Market Research Analyst</li>
+              <li>Human Resources (HR) Specialist</li>
+              <li>Loan Officer</li>
+              <li>Meeting, Convention and Event Planner</li>
+              <li>Training and Development Specialist</li>
+            </ul>
+          </td>
+          
+        </tr>
+      </div>
+      </div>
+      </div>
+
+      <div class="why" style="color: black;">
+      <table>
+      <tr>
+        <td>
+          <h2>Why ABE?</h2>
+          <p>ABE (Association of Business Executives) is a professional qualification from the UK that is recognized worldwide, including in Kenya. The following are some of the benefits of pursuing ABE:</p>
+          <ul>
+            <li>Global Recognition: ABE is recognized globally, and holders of ABE qualifications are highly valued by employers in various countries. This means that ABE graduates have the potential to work in different parts of the world.</li>
+            <li>Availability of Tuition Providers: ABE has tuition providers in different parts of the world, making it possible for students to continue their studies even when they travel outside their home country.</li>
+            <li>Recognition by Universities: ABE qualifications are officially recognized for university entrance by more than 80 universities worldwide, including in Kenya. This means that ABE graduates can gain entry into these universities for further studies.</li>
+            <li>Certification at Every Stage: ABE students receive certification awards at every stage of the programme. This means that if a student discontinues their studies after attaining a particular level, they will still have a valuable and recognized qualification.</li>
+            <li>Exemptions for Professional Qualifications: Holders of certain other professional qualifications may gain exemptions from ABE Diploma subjects. This means that students can reduce the number of subjects they need to study to obtain an ABE Diploma.</li>
+            <li>Subject Exemptions for Professional Bodies: Holders of an ABE qualification may gain subject exemptions in the examinations of other professional bodies. This means that ABE graduates can pursue further professional qualifications with reduced subject requirements.</li>
+            <li>Entry onto Masters or MBA programmes: ABE Level 6 Diploma holders with relevant work experience can gain entry into Masters or MBA programmes. This means that ABE graduates can further their studies and advance their careers.</li>
+          </ul>
+        </td>
+
+        <td>
+          <h2>Why ABE at Excel Global College?</h2>
+          <ul>
+            <li>Free study materials</li>
+            <li>Affordable fees</li>
+            <li>Fast track to a degree program</li>
+            <li>Experienced teachers</li>
+            <li>100% pass guarantee</li>
+            <li>Flexible timings</li>
+            <li>Installment plans available</li>
+            <li>Assistance in job placements</li>
+            <li>ACCA Gold Approved Learning Provider</li>
+            <li>ACCA Computer-based Exam Centre</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </div>
+<br>
+  <div class="footer">
+
+
+<br>
+    <div class="row">
+      <div class="col">
+    <ul>
+      <h2>Excel Global College</h2>
+      <li>About us</li>
+      <li>Gallery</li>
+      <li>Job Placements</li>
+      <li>Contact us</li>
+    </ul>
+      </div>
+    
+      <div class="col">
+    <ul>
+      <h2>School of Business</h2>
+      <li>ABE</li>
+      <li>Business Startup</li>
+      <li>CISCOM</li>
+      <li>Business English</li>
+    </ul>
+      </div>
+    
+      <div class="col">
+        <ul>
+      <h2>School of Accounting</h2>
+      <li>ACCA</li>
+      <li>Accounting packages</li>
+        </ul>
+      </div>
+    
+      <div class="col">
+        <ul>
+          <h2>School of ICT</h2>
+          <li>Microsoft Office Specialist</li>
+          <li>Adobe Certified courses</li>
+          <li>Graphic design</li>
+          <li>Web design</li>
+          <li>Programmimg</li>
+          <li>Networking</li>
+          <li>Software development</li>
+          <li>Computer packages</li>
+          <li>ABMA diploma</li>
+            </ul>
+    
+            
+      </div>
+      <center>
+        <div class="row">
+          <div class="fnt">
+              <i class="fa fa-facebook" aria-hidden="true" style="font-size: xx-large;" id="fnt"></i>
+          </div>
+<div class="fnt1">
+              <i class="fa fa-linkedin" aria-hidden="true" style="font-size: xx-large;" id="fnt1"></i>
+          </div>
+          <div class="fnt2">
+              <i class="fa fa-youtube" aria-hidden="true" style="font-size: xx-large;" id="fnt2"></i>
+          </div>
+
+          <div class="fnt3">
+              <i class="fa fa-instagram" aria-hidden="true" style="font-size: xx-large;" id="fnt3"></i>
+          </div>
+          </div>
+      </center>
+        </div>
+    <hr></hr>
+    
+      <center><p>2021 Excel Global college. All rights reserved.</p>
+      <p>Website designed by VLION.</p>
+    </center>
+    </div>
+
+</body>
+</html>
